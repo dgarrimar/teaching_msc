@@ -1,0 +1,24 @@
+#  eQTL mapping pipeline
+#  
+#  Unprocessed input DATA 
+#  ==========================================================================================================================
+#  .
+#  ├ 1000g                                                                                      > 1000 GENOMES PROJECT
+#  │   └ 1000g.phase3_metadata.txt                                                                Metadata (*)
+#  │    
+#  ├ ensembl											> ENSEMBL            
+#  │  												  (empty)
+#  │ 
+#  ├ gencode											> GENCODE 
+#  │                                                                                              (empty)
+#  │  												  
+#  ├ geuvadis										        > GEUVADIS PROJECT
+#  │   ├ geuvadis.gene_expr_rpkm.tsv.gz                                                           Gene expression matrix
+#  │   └ geuvadis.metadata.txt                                                                    Metadata
+#  │   
+#  ├ gwas                                                                                       > GWAS
+#  │   └ gwas.catalog.hg19.bed									  GWAS catalog in BED format
+#  │  
+#  └ README
+#
+#  (*) Genotype VCF file will be downloaded during the hands-on
